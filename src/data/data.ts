@@ -23,7 +23,7 @@ export type linkGroup = {
 
 export const links: linkGroup[] = [
 	
-  {
+    {
     "title": "school",
     "links": [
       {
@@ -49,11 +49,11 @@ export const links: linkGroup[] = [
     ]
   },
   {
-    "title": "recreation",
+    "title": "entertainment",
     "links": [
       {
         "label": "youtube",
-        "value": "https://www.blender.org/"
+        "value": "https://www.youtube.com/"
       },
       {
         "label": "instagram",
@@ -83,6 +83,10 @@ export const links: linkGroup[] = [
       {
         "label": "maps",
         "value": "https://www.google.com/maps"
+      },
+      {
+        "label": "github",
+        "value": "https://github.com/"
       }
     ]
   }
