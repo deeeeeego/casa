@@ -67,6 +67,14 @@ export const links: linkGroup[] = [
         "label": "notes",
         "value": "https://keep.google.com/u/0/"
       }
+	     {
+        "label": "wordle",
+        "value": "https://www.nytimes.com/games/wordle/index.html"
+      },
+      {
+        "label": "globle",
+        "value": "https://globle-game.com/"
+      }
     ]
   },
   {
