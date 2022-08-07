@@ -151,13 +151,13 @@ export type Theme = {
 
 export const themes: Theme[] = [
 	{
-		name: "KISSLAND",
-		image: pic_1,
+		name: "STARBOY",
+		image: pic_3,
 		colors: {
 			"--bg-color": "#000000",
-			"--default-color": "#2FF9A5",
-			"--accent-color": "#FFFFFF",
-			"--accent-color2": "#46FBB4",
+			"--default-color": "#EBB365",
+			"--accent-color": "#E46595",
+			"--accent-color2": "#0D5DCF",
 		},
 	},
 	{
@@ -171,13 +171,14 @@ export const themes: Theme[] = [
 		},
 	},
 	{
-		name: "STARBOY",
-		image: pic_3,
+
+		name: "KISSLAND",
+		image: pic_1,
 		colors: {
 			"--bg-color": "#000000",
-			"--default-color": "#EBB365",
-			"--accent-color": "#E46595",
-			"--accent-color2": "#0D5DCF",
+			"--default-color": "#2FF9A5",
+			"--accent-color": "#FFFFFF",
+			"--accent-color2": "#46FBB4",
 		},
 	},
 	{
