@@ -26,64 +26,76 @@ export const links: linkGroup[] = [
   {
     "title": "school",
     "links": [
-      {
-        "label": "canvas",
-        "value": "https://canvas.houstonisd.org/profile"
-      },
-      {
-        "label": "grades",
-        "value": "https://hisdconnect.houstonisd.org/public/"
-      },
-      {
-        "label": "edpuzzle",
-        "value": "https://edpuzzle.com/classes/62041efe99c34142f4591fb8"
-      },
-      {
-        "label": "ut quest",
-        "value": "https://enterprise.login.utexas.edu/idp/profile/SAML2/Redirect/SSO?execution=e1s2"
-      },
-      {
-        "label": "docs",
-        "value": "https://docs.google.com/document/u/0/"
-      }
+		{
+			"label": "canvas",
+			"value": "https://canvas.houstonisd.org/profile"
+		  },
+		  {
+			"label": "grades",
+			"value": "https://hisdconnect.houstonisd.org/public/"
+		  },
+		  {
+			"label": "edpuzzle",
+			"value": "https://edpuzzle.com/classes/62041efe99c34142f4591fb8"
+		  },
+		  {
+			"label": "ut quest",
+			"value": "https://enterprise.login.utexas.edu/idp/profile/SAML2/Redirect/SSO?execution=e1s2"
+		  },
+		  {
+			"label": "docs",
+			"value": "https://docs.google.com/document/u/0/"
+		  },
+		  {
+			"label": "drive",
+			"value": "https://drive.google.com/drive/u/0/my-drive"
+		  }
     ]
   },
   {
     "title": "entertainment",
     "links": [
-      {
-        "label": "youtube",
-        "value": "https://www.blender.org/"
-      },
-      {
-        "label": "instagram",
-        "value": "https://www.instagram.com/"
-      },
-      {
-        "label": "osu",
-        "value": "https://osu.ppy.sh/users/19813678"
-      },
-      {
-        "label": "notes",
-        "value": "https://keep.google.com/u/0/"
-      }
+		{
+			"label": "youtube",
+			"value": "https://www.youtube.com/"
+		  },
+		  {
+			"label": "netflix",
+			"value": "https://www.netflix.com/browse"
+		  },
+		  {
+			"label": "notes",
+			"value": "https://keep.google.com/u/0/"
+		  },
+		  {
+			"label": "wordle",
+			"value": "https://www.nytimes.com/games/wordle/index.html"
+		  },
+		  {
+			"label": "globle",
+			"value": "https://globle-game.com/"
+		  }
     ]
   },
   {
     "title": "other",
     "links": [
-      {
-        "label": "monkeytype",
-        "value": "https://monkeytype.com/"
-      },
-      {
-        "label": "amazon",
-        "value": "https://www.amazon.com/ref=nav_logo"
-      },
-      {
-        "label": "maps",
-        "value": "https://www.google.com/maps"
-      }
+		{
+			"label": "monkeytype",
+			"value": "https://monkeytype.com/"
+		  },
+		  {
+			"label": "amazon",
+			"value": "https://www.amazon.com/ref=nav_logo"
+		  },
+		  {
+			"label": "maps",
+			"value": "https://www.google.com/maps"
+		  },
+		  {
+			"label": "github",
+			"value": "https://github.com/"
+		  }
     ]
   }
 ]
