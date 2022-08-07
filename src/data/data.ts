@@ -2,11 +2,14 @@ import pic_1 from "./pictures/pic_1.jpg";
 import pic_2 from "./pictures/pic_2.jpg";
 import pic_3 from "./pictures/pic_3.jpg";
 import pic_4 from "./pictures/pic_4.jpg";
-import pic_5 from "./pictures/pic_5.jpg";
-import pic_6 from "./pictures/pic_6.jpg";
-import pic_7 from "./pictures/pic_7.jpg";
+import pic_5 from "./pictures/pic_5.png";
+import pic_6 from "./pictures/pic_6.png";
+import pic_7 from "./pictures/pic_7.png";
 import pic_8 from "./pictures/pic_8.png";
 
+/*
+replace these tonight
+*/
 export type dataElem = {
 	label: string,
 	value: string,
@@ -17,139 +20,72 @@ export type linkGroup = {
 	links: dataElem[];
 }
 
-/*
-──────▄▌▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀​▀▀▀▀▀▀▌
-───▄▄██▌█ BEEP BEEP
-▄▄▄▌▐██▌█ GAY PORN DELIVERY
-███████▌█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄​▄▄▄▄▄▄▌
-▀(@)▀▀▀▀▀▀▀(@)(@)▀▀▀▀▀▀▀▀▀▀▀▀▀​▀▀▀▀(@)▀
-*/
+
 export const links: linkGroup[] = [
-	{
-		title: "Reddit",
-		links: [
-			{
-				label: "r/startpages",
-				value: "https://www.reddit.com/r/startpages/",
-			},
-			{
-				label: "r/unixporn",
-				value: "https://www.reddit.com/r/unixporn/",
-			},
-			{
-				label: "r/rainmeter",
-				value: "https://www.reddit.com/r/rainmeter/",
-			},
-			{
-				label: "r/AnimalsBeingDerps",
-				value: "https://www.reddit.com/r/AnimalsBeingDerps/",
-			},
-		]
-	},
-	{
-		title: "3D Modelling",
-		links: [
-			{
-				label: "Blender",
-				value: "https://www.blender.org/",
-			},
-			{
-				label: "BlenderGuru",
-				value: "https://www.blenderguru.com/",
-			},
-			{
-				label: "Poliigon",
-				value: "https://www.poliigon.com/",
-			},
-			{
-				label: "Blender tutorial",
-				value: "https://www.youtube.com/watch?v=NyJWoyVx_XI&list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U",
-			},
-			{
-				label: "The other Blender tutorial",
-				value: "https://www.youtube.com/watch?v=bpvh-9H8S1g&list=PL8eKBkZzqDiU-qcoaghCz04sMitC1yx6k&index=1",
-			},
-		]
-	},
-	{
-		title: "Design",
-		links: [
-			{
-				label: "PixlrX",
-				value: "https://pixlr.com/x/",
-			},
-			{
-				label: "AI Image Enlarger",
-				value: "https://bigjpg.com/en",
-			},
-			{
-				label: "Img to Svg Converter",
-				value: "https://picsvg.com/",
-			},
-			{
-				label: "Affinity",
-				value: "https://affinity.serif.com/en-us/tutorials/designer/desktop/",
-			},
-			{
-				label: "Affinity - YT",
-				value: "https://www.youtube.com/c/AffinityRevolution/playlists",
-			},
-		]
-	},
-	{
-		title: "Music",
-		links: [
-			{
-				label: "i wanna be a cowboy",
-				value: "https://www.youtube.com/watch?v=8zWz92f_HGs",
-			},
-			{
-				label: "let the bodies hit the floor",
-				value: "https://www.youtube.com/watch?v=b--VKaCB9u0",
-			},
-			{
-				label: "Nobody Kanna Cross It",
-				value: "https://www.youtube.com/watch?v=2wqTnwJGvtc",
-			},
-			{
-				label: "Smug Dancin",
-				value: "https://www.youtube.com/watch?v=eNZ9Od1jQ4Q",
-			},
-			{
-				label: "Utamaru - The Sanctified Mind Cover",
-				value: "https://www.youtube.com/watch?v=MHlJKLlS07U",
-			},
-		]
-	},
-	{
-		title: "Sauce",
-		links: [
-			{
-				label: "Pictures - DeathAndMilk",
-				value: "https://www.instagram.com/deathandmilk_/",
-			},
-			{
-				label: "Icons - FontAwesome",
-				value: "https://fontawesome.com/icons",
-			},
-			{
-				label: "Text Flicker - CodeMyUI",
-				value: "https://codemyui.com/crt-screen-text-flicker-animation-in-pure-css/",
-			},
-			{
-				label: "Wave Animation - mburakerman",
-				value: "https://codepen.io/mburakerman/pen/eRZZEv",
-			},
-			{
-				label: "Da real sauce ԅ(♡﹃♡ԅ)",
-				value: "https://www.youtube.com/watch?v=qr89xoZyE1g",
-			},
-			{
-				label: "Even more real sauce ( ͡° ͜ʖ ͡°)",
-				value: "https://www.youtube.com/watch?v=VLhJOd_TFiI",
-			},
-		]
-	},
+	
+  {
+    "title": "school",
+    "links": [
+      {
+        "label": "canvas",
+        "value": "https://canvas.houstonisd.org/profile"
+      },
+      {
+        "label": "grades",
+        "value": "https://hisdconnect.houstonisd.org/public/"
+      },
+      {
+        "label": "edpuzzle",
+        "value": "https://edpuzzle.com/classes/62041efe99c34142f4591fb8"
+      },
+      {
+        "label": "ut quest",
+        "value": "https://enterprise.login.utexas.edu/idp/profile/SAML2/Redirect/SSO?execution=e1s2"
+      },
+      {
+        "label": "docs",
+        "value": "https://docs.google.com/document/u/0/"
+      }
+    ]
+  },
+  {
+    "title": "recreation",
+    "links": [
+      {
+        "label": "youtube",
+        "value": "https://www.blender.org/"
+      },
+      {
+        "label": "instagram",
+        "value": "https://www.instagram.com/"
+      },
+      {
+        "label": "osu",
+        "value": "https://osu.ppy.sh/users/19813678"
+      },
+      {
+        "label": "notes",
+        "value": "https://keep.google.com/u/0/"
+      }
+    ]
+  },
+  {
+    "title": "other",
+    "links": [
+      {
+        "label": "monkeytype",
+        "value": "https://monkeytype.com/"
+      },
+      {
+        "label": "amazon",
+        "value": "https://www.amazon.com/ref=nav_logo"
+      },
+      {
+        "label": "maps",
+        "value": "https://www.google.com/maps"
+      }
+    ]
+  }
 ]
 
 export const images: dataElem[] = [
@@ -215,63 +151,75 @@ export type Theme = {
 
 export const themes: Theme[] = [
 	{
-		name: "DeathAndMilk",
+		name: "KISSLAND",
 		image: pic_1,
 		colors: {
-			"--bg-color": "#2E2E2E",
-			"--default-color": "#E6E6E6",
-			"--accent-color": "#FFB4E6",
-			"--accent-color2": "#B4FFE6",
+			"--bg-color": "#000000",
+			"--default-color": "#2FF9A5",
+			"--accent-color": "#FFFFFF",
+			"--accent-color2": "#46FBB4",
 		},
 	},
 	{
-		name: "Pop!OS",
-		image: "https://oswallpapers.com/wp-content/uploads/2019/04/kate-hazen-unleash-your-robot.jpg",
+		name: "AFTERHOURS",
+		image: pic_2,
 		colors: {
-			"--bg-color": "#333136",
-			"--default-color": "#2BC5EB",
-			"--accent-color": "#FCD307",
-			"--accent-color2": "#2BC5EB",
+			"--bg-color": "#000000",
+			"--default-color": "#DD0D12",
+			"--accent-color": "#FFFFFF",
+			"--accent-color2": "#DD0D12",
 		},
 	},
 	{
-		name: "Dark Souls",
-		image: "https://i.pinimg.com/originals/16/74/db/1674dbae45cd38f3d3b4c00dc8616bd7.gif",
+		name: "STARBOY",
+		image: pic_3,
 		colors: {
-			"--bg-color": "#32323C",
-			"--default-color": "#A0A08C",
-			"--accent-color": "#9A6650",
-			"--accent-color2": "#461E28",
+			"--bg-color": "#000000",
+			"--default-color": "#EBB365",
+			"--accent-color": "#E46595",
+			"--accent-color2": "#0D5DCF",
 		},
 	},
 	{
-		name: "S.E.Lain",
-		image: "https://64.media.tumblr.com/54a945edd2641e20859d6f6537cd7423/tumblr_pwa4bogz4N1qze3hdo2_r1_500.gifv",
+		name: "MELANCHOLY",
+		image: pic_4,
 		colors: {
-			"--bg-color": "#0a1a25",
-			"--default-color": "#a6b7ab",
-			"--accent-color": "#94656b",
-			"--accent-color2": "#57182e"
+			"--bg-color": "#000000",
+			"--default-color": "#5B2720",
+			"--accent-color": "#9D3416",
+			"--accent-color2": "#702F07"
 		}
 	},
 	{
-		name: "Kitties",
-		image: "https://64.media.tumblr.com/5a232d5c0999d02388d78e5c1025f94f/0572516693bf4014-3d/s500x750/0306dc89b657093529aa3ce96e64b9c43572e901.gifv",
+		name: "DAWNFM",
+		image: pic_5,
 		colors: {
-			"--bg-color": "#495662",
-			"--default-color": "#d1f1fa",
-			"--accent-color": "#80aad4",
-			"--accent-color2": "#e8a9b7"
+			"--bg-color": "#211E10",
+			"--default-color": "#B72C14",
+			"--accent-color": "#C2D5DC",
+			"--accent-color2": "#DDD0BA"
 		}
 	},
 	{
-		name: "pretty chill",
-		image: "https://e4p7c9i3.stackpathcdn.com/wp-content/uploads/2019/05/tumblr_oymsnbT0111vjxiz1o1_1280.gif?iv=165",
+		name: "MADNESS",
+		image: pic_6,
 		colors: {
-			"--bg-color": "#397d76",
-			"--default-color": "#f1daba",
-			"--accent-color": "#c5bdb5",
-			"--accent-color2": "#93a662"
+			"--bg-color": "#181818",
+			"--default-color": "#DD5031",
+			"--accent-color": "#D4C835",
+			"--accent-color2": "#DBE5E6"
+		}
+		
+	
+	},
+	{
+		name: "TRILOGY",
+		image: pic_7,
+		colors: {
+			"--bg-color": "#000000",
+			"--default-color": "#FFFFFF",
+			"--accent-color": "#858585",
+			"--accent-color2": "#FFFFFF"
 		}
 	}
 ]
