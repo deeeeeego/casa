@@ -49,7 +49,7 @@ export const links: linkGroup[] = [
     ]
   },
   {
-    "title": "recreation",
+    "title": "entertainment",
     "links": [
       {
         "label": "youtube",
@@ -101,12 +101,13 @@ export const images: dataElem[] = [
 
 export const searchEngines: dataElem[] = [
 	{
-		label: "DuckDuckGo",
-		value: "duckduckgo.com/",
-	},
-	{
 		label: "Google",
 		value: "google.com/search",
+		
+	},
+	{
+		label: "DuckDuckGo",
+		value: "duckduckgo.com/",	
 	},
 	{
 		label: "Qwant",
