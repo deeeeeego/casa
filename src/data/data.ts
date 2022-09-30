@@ -28,7 +28,11 @@ export const links: linkGroup[] = [
     "links": [
 		{
 			"label": "canvas",
-			"value": "https://canvas.houstonisd.org/profile"
+			"value": "https://canvas.houstonisd.org/"
+		  },
+		  {
+			"label": "clever",
+			"value": "https://www.houstonisd.org/DigitalResources"
 		  },
 		  {
 			"label": "grades",
@@ -39,16 +43,20 @@ export const links: linkGroup[] = [
 			"value": "https://edpuzzle.com/classes/62041efe99c34142f4591fb8"
 		  },
 		  {
-			"label": "ut quest",
-			"value": "https://enterprise.login.utexas.edu/idp/profile/SAML2/Redirect/SSO?execution=e1s2"
-		  },
-		  {
 			"label": "docs",
 			"value": "https://docs.google.com/document/u/0/"
 		  },
 		  {
 			"label": "drive",
 			"value": "https://drive.google.com/drive/u/0/my-drive"
+		  },
+		  {
+			"label": "peardeck",
+			"value": "https://app.peardeck.com/join"
+		  },
+		  {
+			"label": "icloud",
+			"value": "https://www.icloud.com/"
 		  }
     ]
   },
@@ -63,10 +71,7 @@ export const links: linkGroup[] = [
 			"label": "netflix",
 			"value": "https://www.netflix.com/browse"
 		  },
-		  {
-			"label": "notes",
-			"value": "https://keep.google.com/u/0/"
-		  },
+		
 		  {
 			"label": "wordle",
 			"value": "https://www.nytimes.com/games/wordle/index.html"
