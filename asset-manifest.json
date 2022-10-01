@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.42fcf7fb.css",
-    "main.js": "./static/js/main.f51738f7.js",
+    "main.js": "./static/js/main.bc3f5ce8.js",
+    "static/media/logo.png": "./static/media/logo.0abed26e6c472070a592.png",
     "static/media/pic_8.png": "./static/media/pic_8.4387a5b982e94311f550.png",
     "static/media/pic_5.png": "./static/media/pic_5.1b10bb4e375cc0a09ada.png",
     "static/media/pic_6.png": "./static/media/pic_6.84fad738e7a3c74b3b36.png",
@@ -12,16 +13,15 @@
     "static/media/pic_2.jpg": "./static/media/pic_2.6b79ffe825b0c788d101.jpg",
     "static/media/pic_7.png": "./static/media/pic_7.9989109cd07a9180786a.png",
     "static/media/pic_1.jpg": "./static/media/pic_1.229a8dd3f4acf9f0223f.jpg",
-    "static/media/logo.png": "./static/media/logo.ed388bf3dc802a18f63b.png",
     "static/media/duckduckgo.svg": "./static/media/duckduckgo.ccd4b3162b0e009b710a9dce3b51f4af.svg",
     "static/media/qwant.svg": "./static/media/qwant.e8673f4414f99fc3a115a81267075c0e.svg",
     "static/media/google.svg": "./static/media/google.ec244b8ebe146cd90661080d2506d67f.svg",
     "index.html": "./index.html",
     "main.42fcf7fb.css.map": "./static/css/main.42fcf7fb.css.map",
-    "main.f51738f7.js.map": "./static/js/main.f51738f7.js.map"
+    "main.bc3f5ce8.js.map": "./static/js/main.bc3f5ce8.js.map"
   },
   "entrypoints": [
     "static/css/main.42fcf7fb.css",
-    "static/js/main.f51738f7.js"
+    "static/js/main.bc3f5ce8.js"
   ]
 }
