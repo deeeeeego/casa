@@ -51,8 +51,8 @@ export const links: linkGroup[] = [
 			"value": "https://drive.google.com/drive/u/0/my-drive"
 		  },
 		  {
-			"label": "peardeck",
-			"value": "https://app.peardeck.com/join"
+			"label": "udemy",
+			"value": "https://gale.udemy.com/organization/home/"
 		  },
 		  {
 			"label": "icloud",
