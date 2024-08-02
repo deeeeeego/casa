@@ -28,19 +28,16 @@ export const links: linkGroup[] = [
     "links": [
 		{
 			"label": "canvas",
-			"value": "https://canvas.houstonisd.org/"
+			"value": "https://canvas.tamu.edu/"
+		  },
+		
+{
+			"label": "mail",
+			"value": "https://mail.google.com/mail/u/0/#inbox"
 		  },
 		  {
-			"label": "clever",
-			"value": "https://www.houstonisd.org/DigitalResources"
-		  },
-		  {
-			"label": "grades",
-			"value": "https://hisdconnect.houstonisd.org/public/"
-		  },
-		  {
-			"label": "edpuzzle",
-			"value": "https://edpuzzle.com/classes/62041efe99c34142f4591fb8"
+			"label": "howdy",
+			"value": "https://howdy.tamu.edu/uPortal/f/welcome/normal/render.uP"
 		  },
 		  {
 			"label": "docs",
@@ -50,10 +47,7 @@ export const links: linkGroup[] = [
 			"label": "drive",
 			"value": "https://drive.google.com/drive/u/0/my-drive"
 		  },
-		  {
-			"label": "udemy",
-			"value": "https://gale.udemy.com/organization/home/"
-		  },
+	
 		  {
 			"label": "icloud",
 			"value": "https://www.icloud.com/"
@@ -68,8 +62,8 @@ export const links: linkGroup[] = [
 			"value": "https://www.youtube.com/"
 		  },
 		  {
-			"label": "netflix",
-			"value": "https://www.netflix.com/browse"
+			"label": "anime",
+			"value": "https://hianime.to/"
 		  },
 		
 		  {
